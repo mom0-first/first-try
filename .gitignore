@@ -21,3 +21,9 @@ a.out
 Thumbs.db
 .DS_Store
 desktop.ini
+
+# 构建目录
+build/
+Debug/
+Release/
+*.dSYM/

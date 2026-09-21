@@ -1,6 +1,15 @@
 # first-try
 
-我的第一个 C 语言 + Git + GitHub 练习项目。
+C 语言学习仓库。包含入门程序和练习代码。
+
+## 目录结构
+
+| 路径 | 内容 |
+|------|------|
+| `main.c` | Hello World 入门程序 |
+| `2026_9month/20.c` | 2026 年 9 月的练习 |
+| `nothing/momo_first.c` | 早期练习 |
+| `.vscode/` | 编辑器配置（编译任务、调试配置） |
 
 ## 环境要求
 
@@ -14,13 +23,15 @@ gcc -Wall -Wextra -g main.c -o main.exe
 .\main.exe
 ```
 
-在 VS Code 里也可以直接按 `Ctrl+Shift+B` 一键编译。
+在 VS Code 里：
 
-## 文件说明
+- `Ctrl+Shift+B` 一键编译当前文件
+- `F5` 调试运行
+- `F10` / `F11` 单步调试
 
-| 文件 | 内容 |
-|------|------|
-| `main.c` | Hello World 程序 |
+## 说明
+
+`*.exe`、`*.o`、`build/` 等编译产物已通过 `.gitignore` 排除，不会提交到仓库。
 
 ## 学习进度
 
