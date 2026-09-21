@@ -1,0 +1,23 @@
+# 编译产物
+*.exe
+*.o
+*.obj
+*.out
+a.out
+
+# 调试文件
+*.pdb
+*.ilk
+*.dSYM/
+
+# 编辑器配置（本地个人设置）
+.vscode/settings.json
+
+# 临时文件
+*.tmp
+*.log
+
+# 系统文件
+Thumbs.db
+.DS_Store
+desktop.ini
